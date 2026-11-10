@@ -1,0 +1,9 @@
+class Solution {
+public:
+    int largestElement(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        return nums[nums.size() - 1];
+    }
+};
+
+//https://takeuforward.org/practice/dsa/largest-element
